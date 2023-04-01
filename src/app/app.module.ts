@@ -13,6 +13,8 @@ import {MatListModule} from '@angular/material/list';
 import {MatTableModule} from '@angular/material/table';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatMenuModule} from '@angular/material/menu';
+import { MikematthewsComponent } from './demo/mikematthews/mikematthews.component';
+import { BernieconwayComponent } from './demo/bernieconway/bernieconway.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import {MatMenuModule} from '@angular/material/menu';
     ContactComponent,
     HomeComponent,
     StudioComponent,
-    SamplesComponent
+    SamplesComponent,
+    MikematthewsComponent,
+    BernieconwayComponent
   ],
   imports: [
     BrowserModule,

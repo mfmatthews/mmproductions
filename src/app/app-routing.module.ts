@@ -4,6 +4,8 @@ import { HomeComponent } from './home/home.component';
 import { StudioComponent } from './studio/studio.component';
 import { SamplesComponent } from './samples/samples.component';
 import { ContactComponent } from './contact/contact.component';
+import { MikematthewsComponent } from './demo/mikematthews/mikematthews.component';
+import { BernieconwayComponent } from './demo/bernieconway/bernieconway.component';
 
 const routes: Routes = [
   {
@@ -25,6 +27,18 @@ const routes: Routes = [
   {
     path: "samples",
     component: SamplesComponent
+  },
+  {
+    path: "demo/mikematthews",
+    component: MikematthewsComponent
+  },
+  {
+    path: "demo/mikematthews/samples/JazzCookersBostonShuffle.mp3",
+    component: MikematthewsComponent
+  },
+  {
+    path: "demo/bernieconway",
+    component: BernieconwayComponent
   }
 
 ];
