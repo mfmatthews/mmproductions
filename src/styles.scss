@@ -1,0 +1,237 @@
+/* You can add global styles to this file, and also import other style files */
+@use '@angular/material' as mat;
+@import "@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+	background: #D8C692;
+	background-image: url(assets/images/main_background.jpg);	
+	background-repeat: repeat-x;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+
+.main_body_frame
+{
+	width: 100%;
+	height: 587px;
+
+}
+
+.topbuffer 
+{
+	width: 100%;
+	height: 0px;
+
+}
+
+.bodybuffer 
+{
+	height: 3px;
+	text-align: center;
+    margin: auto;
+
+}
+
+.header_background 
+{
+	width: 100%;
+	height: 215px;
+    margin: auto;
+}
+
+.headerimage 
+{
+	background-image: url(assets/images/header_background_mark_logo.jpg);
+    background-repeat: no-repeat;
+	width: 930px;
+	height: 215px;
+	text-align: center;
+    vertical-align: middle;
+	margin: auto;
+}
+
+.menubuffer 
+{
+	height: 90px;
+	text-align: center;
+    margin: auto;
+
+}
+
+.menu 
+{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+    font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	font-style: normal;
+	color : #4E2583;
+}
+
+.mat-button {
+    padding: 0 6px 0 6px;
+    margin: 6px 8px 6px 8px;
+    color: #C4AB69;
+    text-align: center;
+    border: none;
+    outline: none;
+  }
+
+
+
+.mark_logo
+{
+    position: relative;
+	width: 800px;
+	height: 174px;
+	text-align: center;
+	
+}
+
+
+.main_content_frame
+{
+    position: relative;   
+	margin: auto;
+	background-image: url(assets/images/main_body_over_no_text.jpg);
+	background-repeat:no-repeat;
+	width: 930px;
+	height: 622px;
+	text-align: center;
+    vertical-align: middle;
+	margin: auto;
+
+}
+.main_body_title
+{	
+	position: relative;   
+	margin: auto;
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 18px;
+	font-style: normal;
+	color : #4E2583;
+	text-align: left;
+}
+
+.main_body_content
+{
+	position: absolute;   
+	margin: auto;
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 14px;
+	font-style: normal;
+	color : #4E2583;
+	text-align: left;
+	top: 230px;
+	left: 30px;
+}
+
+
+
+.footer_background 
+{
+
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	margin: auto;	
+}
+
+.footer_frame
+{
+    position: relative;
+	top: 20px;
+    width: 930px;
+	height: 200px;
+	text-align: center;
+	margin: auto;
+	
+}
+
+
+
+.footer
+{
+
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 14px;
+	font-style: normal;
+	color : #FFFFFF;
+}
+
+.footer_large
+{
+
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 24px;
+	font-style: normal;
+	color : #FFFFFF;
+}
+
+.footer_small
+{
+
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	font-style: normal;
+	color : #FFFFFF;
+}
+
+.caption
+{
+	font-family : Verdana, Arial, Helvetica;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-size : 20px;
+	font-style: normal;
+	color : #4E2583;
+}
+
+.caption_frame
+{
+	position: absolute;
+	margin: auto;
+	top: 100px;
+	left: 120px;
+	height: 30px;
+	text-align: left;
+
+}
+
+A
+{
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	color: #C4AB69;
+	text-decoration : none;
+}
+A:link
+{
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	color: #C4AB69;
+	text-decoration : none;	
+
+}
+A:visited
+{
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	color: #C4AB69;
+}
+A:hover
+{
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	color: #C4AB69;
+	text-decoration: underline;
+}
+A:active
+{
+	font-family : Verdana, Arial, Helvetica;
+	font-size : 12px;
+	color: #4E2583;
+	text-decoration: underline;	
+
+}
