@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { StudioComponent } from './studio/studio.component';
-import { SamplesComponent } from './samples/samples.component';
 import { ContactComponent } from './contact/contact.component';
 import { MikematthewsComponent } from './demo/mikematthews/mikematthews.component';
 import { BernieconwayComponent } from './demo/bernieconway/bernieconway.component';
@@ -23,11 +22,7 @@ const routes: Routes = [
   {
     path: "studio",
     component: StudioComponent
-  },
-  {
-    path: "samples",
-    component: SamplesComponent
-  },
+  },  
   {
     path: "demo/mikematthews",
     component: MikematthewsComponent

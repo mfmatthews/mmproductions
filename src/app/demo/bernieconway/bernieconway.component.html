@@ -1,1 +1,42 @@
-<p>bernieconway works!</p>
+<script>
+var nowplaying = null;
+
+// Pause and reset playing audio before starting new selection  
+function pauseRunningAudio(id) {    
+    
+    alert('in pauseRunningAudio');
+    if ( nowplaying != null && nowplaying != id) {
+        var x = document.getElementById(nowplaying); 
+        x.pause();
+        x.load();   
+    }
+    nowplaying = id;
+}
+</script>
+
+<div class="main_content_frame">
+    <div class="caption_frame">
+        <span class="caption">MUSIC.SOUND.<b>REDEFINED</b></span>
+    </div>
+    
+    <div class="main_body_content">
+        <br />
+        <span class="main_body_title">Bernie Conway Demos</span>
+        <br /><br />                   
+        <div style="width:500px;">
+        <mat-grid-list cols="2" rowHeight="2:0.5">
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls  onplay="pauseRunningAudio('song1')" id="song1"><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio></mat-grid-tile>
+            <mat-grid-tile style="text-align: left;">Hello New York</mat-grid-tile>
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio></mat-grid-tile>
+            <mat-grid-tile>Hello New York</mat-grid-tile>
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio></mat-grid-tile>
+            <mat-grid-tile>Hello New York</mat-grid-tile>
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio></mat-grid-tile>
+            <mat-grid-tile>Hello New York</mat-grid-tile>
+
+        </mat-grid-list>
+        </div>
+    </div>
+
+</div>
+

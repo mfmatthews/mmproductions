@@ -8,7 +8,6 @@ import {MatButtonModule} from '@angular/material/button';
 import {ContactComponent} from './contact/contact.component';
 import {HomeComponent} from './home/home.component';
 import {StudioComponent} from './studio/studio.component';
-import {SamplesComponent} from './samples/samples.component';
 import {MatListModule} from '@angular/material/list';
 import {MatTableModule} from '@angular/material/table';
 import {MatGridListModule} from '@angular/material/grid-list';
@@ -22,7 +21,6 @@ import { BernieconwayComponent } from './demo/bernieconway/bernieconway.componen
     ContactComponent,
     HomeComponent,
     StudioComponent,
-    SamplesComponent,
     MikematthewsComponent,
     BernieconwayComponent
   ],
