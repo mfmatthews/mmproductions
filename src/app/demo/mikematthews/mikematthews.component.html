@@ -5,34 +5,22 @@
     
     <div class="main_body_content">
         <br />
-        <span class="main_body_title">Mike Matthews Demos</span>
+        <span class="main_body_title">Bernie Conway Demos</span>
         <br /><br />                   
-        <span>
-            <table style="vertical-align: middle; width: 100%;">
-                <td>
-                    <tr>
-                        <span style="text-align: left;">Jazz Cookers Boston Shuffle 2019</span>
-                    </tr>
-                </td>
-                <td style="text-align: right;">
-                    <tr>
-                        <audio title="Jazz Cookers Boston Shuffle 2019" controls><source src="assets/samples/mikematthews/JazzCookersBostonShuffle.mp3" type="audio/mpeg">Jazz Cookers</audio>                        
-                    </tr>
-                </td>
-            </table>
-            <table style="vertical-align: middle;">
-                <td style="text-align: left;">
-                    <tr>
-                        <span>Metropolitan Jazz Orchestra Live at Dazzle</span>
-                    </tr>
-                </td>                
-                <td style="text-align: right;">
-                    <tr>
-                        <audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio>                        
-                    </tr>                    
-                </td>
-            </table>
-        </span>
+        <div style="width:500px;">
+        <mat-grid-list cols="2" rowHeight="2:0.5">
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls  onplay="pauseRunningAudio(this);" id="song1"><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg"></audio></mat-grid-tile>
+            <mat-grid-tile style="text-align: center;">Metropolitan Jazz Orchestra Live at Dazzle</mat-grid-tile>
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/JazzCookersBostonShuffle.mp3" type="audio/mpeg"></audio></mat-grid-tile>
+            <mat-grid-tile style="text-align: center;">Jazz Cookers Boston Shuffle</mat-grid-tile>
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio></mat-grid-tile>
+            <mat-grid-tile style="text-align: center;">Hello New York</mat-grid-tile>
+            <mat-grid-tile><audio title="Metropolitan Jazz Orchestra Live at Dazzle" controls><source src="assets/samples/mikematthews/MetropolitanJazzOrch_Dazzle.mp3" type="audio/mpeg">Jazz Cookers</audio></mat-grid-tile>
+            <mat-grid-tile style="text-align: center;">Hello New York</mat-grid-tile>
+
+        </mat-grid-list>
+        </div>
     </div>
 
 </div>
+
