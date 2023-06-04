@@ -8,3 +8,6 @@ $(in root of app): ng build && npm run aws-deploy
 https://levelup.gitconnected.com/learn-how-to-create-and-deploy-the-angular-application-to-aws-serverless-s3-81f8a838b563
  #point domwin
  https://docs.aws.amazon.com/AmazonS3/latest/userguide/website-hosting-custom-domain-walkthrough.html
+
+
+sudo kill `sudo lsof -t -i:4200`
